@@ -1,4 +1,4 @@
-export class UpdateCatDto {
+export class CatDto {
   id: string;
   name: string;
   age: number;
