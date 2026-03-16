@@ -13,7 +13,7 @@ export class CatsService {
     this.cats.push(cat);
   }
 
-  findAll() {
+  findAll(age: number = 0, breed: string = '') {
     return this.cats;
   }
 
